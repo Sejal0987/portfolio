@@ -43,7 +43,8 @@ body
 {
   position:fixed;
   right: 80px;
-
+  animation: shake 0.8s;
+    animation-iteration-count: infinite;
   z-index: -1;
   /* height: 800px;
   width: 400px; */
