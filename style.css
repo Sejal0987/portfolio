@@ -21,8 +21,8 @@ body
 }
 .big
 {
-   margin-top:60px;
-   margin-left:10px;
+   margin-top:4vw;
+   margin-left:0.6vw;
 
 
   height: 94%;
@@ -42,10 +42,13 @@ body
 .photo
 {
   position:fixed;
-  right: 80px;
+  right: 5vw;
   animation: shake 0.8s;
-    animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
   z-index: -1;
+
+
   /* height: 800px;
   width: 400px; */
 }
@@ -55,24 +58,24 @@ body
   font-family: "Tangerine";
   text-align: center;
   font-weight: 900;
-  font-size: 150px;
+  font-size: 9vw;
   color: white;
-  margin-left: 50px;
+  margin-left: 3.2vw;
 
 }
 .heading1
 {
 
-   margin: 100px 0 0 110px;
+   margin: 6.5vw 0 0 7vw;
 }
 #home
 {
-  margin-bottom: 180px;
+  margin-bottom: 11.7vw;
 }
 .heading2
 {
   color: white;
-  font-size: 85px;
+  font-size: 5.5vw;
   font-family:"Montez";
 }
 .change
@@ -81,10 +84,10 @@ body
 }
 .aboutbox
 {
-  padding: 40px 100px 20px 100px;
+  padding: 2.6vw 6.5vw 1.3vw 6.5vw;
   border-radius: 30%;
 
-  margin: 10px 10px 10px 180px;
+  margin: 0.7vw 0.7vw 0.7vw 11.7vw;
   border-style: dotted;
   color: #A6ACAF ;
 }
@@ -95,20 +98,20 @@ body
 .aboutparagh
 {
   font-family: "Piedra";
-  font-size: 20px;
+  font-size: 1.3vw;
   color:#909497  ;
 }
 .aboutparagh2
 {
   font-family: "Tangerine";
-  font-size: 40px;
+  font-size: 2.6vw;
   color:#ECF0F1 ;
 
 }
 .myimage
 {
-  height: 400px;
-  width: 300px;
+  height: 26vw;
+  width: 19.5vw;
   border-radius: 100%;
 }
 .myimage:hover
@@ -119,69 +122,68 @@ body
 }
 #about
 {
-  margin-bottom: 300px;
+  margin-bottom: 19.5vw;
 }
 #project
 {
-  margin: 200px 5px 200px 20px;
+  margin: 5.2vw 0.3vw 13vw 0.3vw;
+  padding-top: 3.9vw;
+
 }
 
 .card
 {
-   border: 4px solid;
-  border-radius: 20%;
-  border-color:#ECF0F1;
-  padding: 0 2px 0 2px;
-  margin: 20px 15px 10px 30px;
+   /* border: 2px dashed; */
+  border-radius: 50%;
+  /* border-color:#ECF0F1; */
+  padding: 0 0.13vw 0 0.13vw;
+  margin: 1.3vw 0.9vw 0.65vw 1.95vw;
 
 
-}
-.outline
-{
-
-    border-color:#ECF0F1;
 
 }
+
+
 
 .cardimg
 {
-  height: 180px;
-  width: 200px;
-  border-radius: 100%;
+  height: 14.9vw;
+  width: 20.1vw;
+  border-radius:30%;
 }
 .future
 {
   font-family: "Ceviche One";
   font-weight: 900;
-  font-size: 80px;
+  font-size: 5.2vw;
   color:#808B96 ;
 }
 .harry
 {
   font-family: "Ceviche One";
   font-weight: 900;
-  font-size: 80px;
+  font-size: 5.2vw;
   color:#808B96 ;
 
 }
 
 .cardimg2
 {
-  height: 180px;
-  width: 200px;
-  border-radius: 100%;
+  height: 14.9vw;
+  width: 20.2vw;
+  border-radius: 30%;
 }
 .cardimg3
 {
-  height: 200px;
-  width: 280px;
-  border-radius: 40%;
+  height:14.9vw;
+  width: 20.2vw;
+  border-radius: 30%;
 }
 .work
 {
   color: #ABB2B9;
   /* color:#A6ACAF; */
-  font-size: 210px;
+  font-size: 13.6vw;
     font-family:"Montez";
     font-weight: 900;
 
@@ -191,7 +193,7 @@ body
 .my
 {
   display: inline;
-  margin-top: 80px;
+  margin-top: 5.2vw;
 
   text-align: center;
 
@@ -201,43 +203,43 @@ body
 {
   display: inline;
 
-  padding-bottom: 60px;
+  padding-bottom: 3.9vw;
   text-align: center;
-  margin-left: 10px;
-  margin-top: 20px;
+  margin-left: 0.6vw;
+  margin-top: 1.3vw;
 }
 .shaking
 {
-  animation: shake 0.5s;
+  animation: shake 0.3s;
   animation-iteration-count: infinite;
 }
 .touch
 {
-  margin:40px 0 10px 0;
+  margin:2.6vw 0 0.6vw 0;
   font-family: 'Montserrat', sans-serif;
   color:  #ABB2B9;
-  font-size: 50px;
+  font-size: 3.3vw;
   font-weight: normal;
-  text-shadow: 10px 10px 3px  #17202A;
+  text-shadow: 0.6vw 0.6vw 0.2vw  #17202A;
 }
 .touchparagh
 {
   font-family: 'Montez', sans-serif;
   color:  #ABB2B9;
-  font-size: 30px;
+  font-size: 1.9vw;
   text-decoration: underline;
-    text-shadow: 6px 6px 5px #d1cebd;
+    text-shadow: 0.4vw 0.4vw 0.3vw #d1cebd;
 
 }
 .mail
 {
-  margin: 5px 0 50px 0;
-  padding: 5px 10px 5px 10px;
+  margin: 0.3vw 0 3.2vw 0;
+  padding: 0.3vw 0.6vw 0.3vw 0.6vw;
 }
 .footer-link
 {
     color: #17202A;
-  margin: 10px 30px 50px 30px;
+  margin: 0.6vw 1.9vw 3.2vw 1.9vw;
   text-decoration: underline;
 }
 .footer-link:hover
@@ -247,12 +249,13 @@ body
 #contact
 {
 
-margin-top: 100px;
+margin-top: 6.5vw;
+
 }
 .contactlink
 {
 
-  padding: 50px 0 30px 0;
+  padding: 3.2vw 0 1.9vw 0;
 
   margin-bottom: 40px;
 
@@ -261,11 +264,22 @@ margin-top: 100px;
 {
 
     background-color:#797D7F;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 
 }
 .bottom
 {
- padding-top: 160px;
+ padding-top: 10.4vw;
   padding-bottom:100px;
+}
+.choose
+{
+  border: solid 0.3vw  #808B96 ;
+  padding: 0 0 0 6.5vw;
+  border-radius: 40%;
+
+}
+.cho
+{
+    margin: 3.2vw 2.6vw 6.5vw 2.6vw;
 }
