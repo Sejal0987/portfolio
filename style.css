@@ -73,8 +73,8 @@ body
 }
 #home
 {
-  height: 640px;
-  /* margin-bottom: 11.7vw; */
+
+  margin-bottom: 11.7vw;
 }
 .heading2
 {
@@ -97,18 +97,25 @@ body
 }
 .aboutbox:hover
 {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 .aboutparagh
 {
   font-family: "Piedra";
-  font-size: 1.3vw;
+  font-size: 2vw;
   color:#909497  ;
+}
+.introparagh
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+  color: #ABB2B9;
+
 }
 .aboutparagh2
 {
   font-family: "Tangerine";
-  font-size: 2.6vw;
+  font-size: 3.4vw;
   color:#ECF0F1 ;
 
 }
@@ -126,15 +133,15 @@ body
 }
 #about
 {
-  height: 640px;
-  padding-top: 10vw;
+
+  padding-top: 5vw;
   /* margin-bottom: 19.5vw; */
 }
 #project
 {
-  height: 640px;
+
   padding-top: 10vw;
-  /* margin: 5.2vw 0.3vw 13vw 0.3vw; */
+  margin: 5.2vw 0.3vw 13vw 0.3vw;
   /* padding-top: 3.9vw; */
 
 }
@@ -280,10 +287,16 @@ margin-top: 6.5vw;
  padding-top: 10.4vw;
   padding-bottom:100px;
 }
+.intro
+{
+  text-align: center;
+ padding-right: 9.1vw;
+ padding-top: 3.9vw;
+}
 .choose
 {
   border: solid 0.3vw  #808B96 ;
-  padding: 0 0 0 6.5vw;
+  padding: 1.2vw 1.2vw 1.2vw 6.5vw;
   border-radius: 40%;
 
 }
