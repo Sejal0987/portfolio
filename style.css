@@ -11,7 +11,10 @@
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
+.navbar
+{
+  display: flex;
+}
 
 body
 {
@@ -70,7 +73,8 @@ body
 }
 #home
 {
-  margin-bottom: 11.7vw;
+  height: 640px;
+  /* margin-bottom: 11.7vw; */
 }
 .heading2
 {
@@ -87,7 +91,7 @@ body
   padding: 2.6vw 6.5vw 1.3vw 6.5vw;
   border-radius: 30%;
 
-  margin: 0.7vw 0.7vw 0.7vw 11.7vw;
+  margin: 1.3vw 0.7vw 0.3vw 11.7vw;
   border-style: dotted;
   color: #A6ACAF ;
 }
@@ -122,12 +126,16 @@ body
 }
 #about
 {
-  margin-bottom: 19.5vw;
+  height: 640px;
+  padding-top: 10vw;
+  /* margin-bottom: 19.5vw; */
 }
 #project
 {
-  margin: 5.2vw 0.3vw 13vw 0.3vw;
-  padding-top: 3.9vw;
+  height: 640px;
+  padding-top: 10vw;
+  /* margin: 5.2vw 0.3vw 13vw 0.3vw; */
+  /* padding-top: 3.9vw; */
 
 }
 
